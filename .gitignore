@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# App runtime data
+.data/
+*.db
+uvicorn.log
+
+# Secrets
+.env
+
+# Coverage / temp
+.coverage

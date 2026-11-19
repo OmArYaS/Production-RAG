@@ -1,0 +1,19 @@
+# Backend — production RAG (offline-capable)
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.0
+python-multipart>=0.0.9
+requests>=2.31
+pypdf>=4.0
+numpy>=1.26
+httpx>=0.27
+
+# Tests
+pytest>=7.4
+
+# --- Optional heavy deps (recommended to unlock real models/indexes). ---
+# The app fully works WITHOUT these, using deterministic offline fallbacks.
+# fastembed>=0.3.2
+# sentence-transformers>=2.3.0
+# faiss-cpu>=1.7.0
+# rank_bm25>=0.2.7
